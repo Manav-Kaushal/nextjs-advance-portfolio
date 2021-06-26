@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const index = () => {
   return (
-    <>
-      <h1>Index Page</h1>
-    </>
-  )
-}
+    <div className="p-5">
+      <h1>About</h1>
+    </div>
+  );
+};
 
 export default index;

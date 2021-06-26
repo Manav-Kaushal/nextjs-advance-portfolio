@@ -63,10 +63,13 @@ const Sidebar = () => {
         <p className="my-2">+91 95012 06323</p>
       </div>
       {/* Email Button */}
-      <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-butterflyBlush ">
+      <button
+        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-butterflyBlush focus:outline-none"
+        onClick={() => window.open("mailto: manavkaushal756@gmail.com")}
+      >
         Email Me
       </button>
-      <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-butterflyBlush ">
+      <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-butterflyBlush focus:outline-none">
         Dark UI
       </button>
     </div>
